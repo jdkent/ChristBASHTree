@@ -10,33 +10,26 @@ Via cURL:
 
 ```
 # English version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+curl https://raw.githubusercontent.com/jdkent/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+curl https://raw.githubusercontent.com/jdkent/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
 Via Wget:
 
 ```
 # English version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+wget -qO- https://raw.githubusercontent.com/jdkent/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
-```
-
-Docker:
-
-```
-docker pull sergiolepore/christbashtree:latest
-docker run -it sergiolepore/christbashtree:latest
+wget -qO- https://raw.githubusercontent.com/jdkent/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
 Git clone and execute:
 
 ```
-git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
+git clone https://github.com/jdkent/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
 ```
 
 __Enjoy!__
@@ -53,7 +46,7 @@ Only GNU/Linux and Unix flavors.
 
 ## What OS are you using?
 
-Ubuntu 17.10.
+Ubuntu 16.04.
 
 ## What about your terminal emulator?
 
@@ -65,4 +58,4 @@ Custom, based on Atom's "One Dark" theme.
 
 ## Contributors
 
-[Here](https://github.com/sergiolepore/ChristBASHTree/graphs/contributors)
+[Here](https://github.com/jdkent/ChristBASHTree/graphs/contributors)

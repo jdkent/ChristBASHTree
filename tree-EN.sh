@@ -32,8 +32,8 @@ for ((i=1; i<=2; i++))
 new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
-tput cup $lin $((c - 6)); echo MERRY CHRISTMAS
-tput cup $((lin + 1)) $((c - 10)); echo And lots of CODE in $new_year
+tput cup $lin $((c - 10)); echo HAPPY HOLIDAYS VOSS LAB!
+tput cup $((lin + 1)) $((c - 11)); echo And New Adventures in $new_year
 let c++
 k=1
 
@@ -57,10 +57,10 @@ while true; do
         column[$k$i]=$co
         color=$(((color+1)%8))
         # Flashing text
-        sh=1
-        for l in C O D E
+        sh=-5
+        for l in H O L I D A Y S
         do
-            tput cup $((lin+1)) $((c+sh))
+            tput cup $((lin)) $((c+sh))
             echo $l
             let sh++
             sleep 0.01
